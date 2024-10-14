@@ -1,0 +1,17 @@
+● jenkins.service - Jenkins Continuous Integration Server
+     Loaded: loaded (/lib/systemd/system/jenkins.service; enabled; vendor preset: enabled)
+     Active: inactive (dead) since Sun 2024-10-06 09:47:52 PDT; 10h ago
+    Process: 177661 ExecStart=/usr/bin/jenkins [0;1;31m(code=exited, status=143)[0m
+   Main PID: 177661 (code=exited, status=143)
+     Status: "Jenkins stopped"
+
+Oct 06 09:47:52 ubuntu jenkins[177661]: 2024-10-06 16:47:52.080+0000 [id=24]        INFO        jenkins.model.Jenkins$16#onAttained: Completed termination
+Oct 06 09:47:52 ubuntu jenkins[177661]: 2024-10-06 16:47:52.080+0000 [id=24]        INFO        jenkins.model.Jenkins#_cleanUpDisconnectComputers: Starting node disconnection
+Oct 06 09:47:52 ubuntu jenkins[177661]: 2024-10-06 16:47:52.098+0000 [id=24]        INFO        jenkins.model.Jenkins#_cleanUpShutdownPluginManager: Stopping plugin manager
+Oct 06 09:47:52 ubuntu jenkins[177661]: 2024-10-06 16:47:52.202+0000 [id=24]        INFO        jenkins.model.Jenkins#_cleanUpPersistQueue: Persisting build queue
+Oct 06 09:47:52 ubuntu jenkins[177661]: 2024-10-06 16:47:52.228+0000 [id=24]        INFO        jenkins.model.Jenkins#_cleanUpAwaitDisconnects: Waiting for node disconnection completion
+Oct 06 09:47:52 ubuntu jenkins[177661]: 2024-10-06 16:47:52.228+0000 [id=24]        INFO        hudson.lifecycle.Lifecycle#onStatusUpdate: Jenkins stopped
+Oct 06 09:47:52 ubuntu jenkins[177661]: 2024-10-06 16:47:52.257+0000 [id=24]        INFO        o.e.j.s.handler.ContextHandler#doStop: Stopped w.@60737b23{Jenkins v2.462.3,/,null,STOPPED}{/var/cache/jenkins/war}
+Oct 06 09:47:52 ubuntu jenkins[177661]: 2024-10-06 16:47:52.269+0000 [id=24]        INFO        winstone.Logger#logInternal: Jetty shutdown successfully
+Oct 06 09:47:52 ubuntu systemd[1]: jenkins.service: Succeeded.
+Oct 06 09:47:52 ubuntu systemd[1]: Stopped Jenkins Continuous Integration Server.
